@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Conference Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="./images/st-johns-vector-logo-color-OUTLINED.png " style="height: 1px;">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    <main>
+      
+      <div class="fullscreen">
+        <div class="belownav">
+          <div class="items">
+          
+
+      
+
+          <h1>2021-2022 St. Johns Country Day School Parent/Teacher Conference Form</h1>
+          <div class="maininformation">
+          <div>
+            <label for="studentname">Student Name: </label>
+            <input type="text" id="studentname">
+          </div>
+          <div>
+            <label for="teachername">Teacher Name: </label>
+            <select name="teachername" id="teachername" >
+              <option value="">Select a Teacher</option>
+              <option value="Kelsey Dennis">Pre-K3: Kelsey Dennis</option>
+              <option value="Jennifer Frisbee">Pre-K4: Jennifer Frisbee</option>
+              <option value="McCall Morgan">Kindergarten: McCall Morgan</option>
+              <option value="Teré Joy Smith">Kindergarten: Teré Joy Smith</option>
+              <option value="Missy Ingram">Grade 1: Missy Ingram</option>
+              <option value="Erin Willingham">Grade 1: Erin Willingham</option>
+              <option value="Holly Jackson">Grade 2: Holly Jackson</option>
+              <option value="Abigail Walker">Grade 2: Abigail Walker</option>
+              <option value="Amanda Powers">Grade 3: Amanda Powers</option>
+              <option value="Sophia Hewitt">Grade 3: Sophia Hewitt</option>
+              <option value="Jennifer Keller">Grade 4: Jennifer Keller</option>
+              <option value="Isy Milne">Grade 4: Isy Milne</option>
+              <option value="Nicole Thompson">Grade 5: Nicole Thompson</option>
+              <option value="Maura Rupert">Grade 5: Maura Rupert</option>
+              <option value="Mary Beth Allgaier">Art: Mary Beth Allgaier</option>
+              <option value="Cody Riker">Drama: Cody Riker</option>
+              <option value="Kim Price">French: Kim Price</option>
+              <option value="Liz Brink">Music: Liz Brink</option>
+              <option value="Marinette Gomez">Music: Marinette Gomez</option>
+              <option value="Michael Warren">Music: Michael Warren</option>
+              <option value="Brad Schmidt">PE: Brad Schmidt</option>
+              <option value="Christie Slaughter">PE: Christie Slaughter</option>
+              <option value="Mike Pickett">PE: Mike Pickett</option>
+              <option value="Amy Johnson">SS: Amy Johnson</option>
+              <option value="Diane Landers">SS: Diane Landers</option>
+              <option value="Lisa Rosenau">SS: Lisa Rosenau</option>
+              <option value="Otis Wirth">LSH: Otis Wirth</option>
+              
+            </select>
+
+            <img id="add" src="./images/icons8-plus-+-24.png" alt="addteacher" style="height: 12px;">
+            <img id="minus" src="./images/icons8-minus-24.png" alt="minusteacher" style="height: 12px;">
+            <img id="edit" src="./images/icons8-edit-24.png" alt="editteacher" style="height: 12px;">
+          </div>
+         <div>
+            <label for="date">Date: </label>
+            <input type="date" id="date">
+          </div>
+          </div>
+
+          <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'Conference')" >Conference</button>
+            <label>and</label>
+            <button class="tablinks" onclick="openTab(event, 'Academics')" >Academics</button>
+            <label>and</label>
+            <button class="tablinks" onclick="openTab(event, 'Comments')">Comments</button>
+          </div>
+
+          
+
+        
+          
+          <div id="Conference" class="tabcontent" style="display: block;"> 
+            <h3><label for="conference">Conference: </label></h3>
+            
+            <input value="phone" type="checkbox" id="phone">
+            <label>Phone</label>
+            
+            <input value="in person" type="checkbox" id="person">
+            <label>In Person</label>
+           
+            <input value="Virtual" type="checkbox" id ="virtual">
+            <label>Virtual</label>
+            <div>
+            <label for="parent">Names in Attendence: </label>
+            <input type="text" id="parentname">
+            </div>
+            <h3><label for="strengths">Shared Student Strengths: </label></h3>
+            <div class="check">
+              <div>
+              <input type="checkbox" id="askforhelp">
+              <label> Asks for help</label>
+              </div>
+              <div>
+              <input type="checkbox" id="isprepared">
+              <label> Is prepared</label>
+              </div>
+              <div>
+              <input type="checkbox" id="getalongwithothers">
+              <label> Gets along with others</label>
+              </div>
+              <div>
+              <input type="checkbox" id=positiveattitude>
+              <label> Positive attitude</label>
+              </div>
+              <div>
+              <input type="checkbox" id="respectfultopeers">
+              <label> Respectful to peers</label>
+              </div>
+              <div>
+              <input type="checkbox" id="respectfultoadults">
+              <label> Respectful to adults</label>
+              </div>
+              <div>
+              <input type="checkbox" id="listenswell">
+              <label> Listens well</label>
+              </div>
+              <div>
+              <input type="checkbox" id="participationinclass">
+              <label> Participates in class appropriately</label>
+              </div>
+              <div>
+              <input type="checkbox" id="solvesproblems">
+              <label> Solves own problems/Independent</label>
+              </div>
+              <div>
+              <input type="checkbox" id="thinkscreativity">
+              <label> Thinks creatively</label>
+              </div>
+              <div>
+              <input type="checkbox" id="followsschoolrules">
+              <label> Follows school rules</label>
+              </div>
+              <div>
+              <input type="checkbox" id="preparedtolearn">
+              <label> Prepared to learn</label>
+              </div>
+              <div>
+              <input type="checkbox" id="usestime">
+              <label> Uses time wisely</label>
+              </div>
+              <div>
+              <input type="checkbox" id="putsfortheffort">
+              <label> Puts forth age-appropriate effort</label>
+              </div>
+              <div>
+              <input type="checkbox" id="conferenceothercheck">
+              <label> Other:</label>
+            <input type="text" id="conferenceothetext">
+            </div>
+            </div>
+            <div class="describe">
+            <label for="describe">Describe what was discussed in the checked areas from the Strengths section above: </label>
+            <textarea type="textarea" id="conferencedescribe"> </textarea>
+            </div>
+            <h3><label for="opportunity">Shared Student Areas of Opportunity:  </label></h3>
+
+            <div class="check">
+              <div>
+              <input type="checkbox" id="askingforhelp">
+              <label> Asking for help</label>
+              </div>
+              <div>
+              <input type="checkbox" id="beingprepared">
+              <label> Being prepared</label>
+              </div>
+              <div>
+              <input type="checkbox" id="alongwithothers">
+              <label> Getting along with others</label>
+              </div>
+              <div>
+              <input type="checkbox" id="positiveattitude">
+              <label> Having a positive attitude</label>
+              </div>
+              <div>
+              <input type="checkbox" id="respectfultopeers2">
+              <label> Being respectful to peers</label>
+              </div>
+              <div>
+              <input type="checkbox" id="respectfultoadults2">
+              <label> Being respectful to adults</label>
+              </div>
+              <div>
+              <input type="checkbox" id="listeningskills">
+              <label> Better listening skills</label>
+              </div>
+              <div>
+              <input type="checkbox" id="lackofclassparticipation">
+              <label> Lack of in class participation</label>
+              </div>
+              <div>
+              <input type="checkbox" id="participatingapporopiately">
+              <label> Participating appropriately</label>
+              </div>
+              <div>
+              <input type="checkbox" id="lackindependence">
+              <label> Lacking independence</label>
+              </div>
+              <div>
+              <input type="checkbox" id="remainingattentive">
+              <label> Remaining attentive</label>
+              </div>
+              <div>
+              <input type="checkbox" id="completingwork">
+              <label> Completing work</label>
+              </div>
+              <div>
+              <input type="checkbox" id="followingdirections">
+              <label> Following directions</label>
+              </div>
+              <div>
+              <input type="checkbox" id="selfcontrol">
+              <label> Exercises self-control</label>
+              </div>
+              <div>
+              <input type="checkbox" id="academicsother">
+              <label> Other:</label>
+              <input type="text" id="academicsothertext">
+              </div>
+            </div>
+            <div class="describe">
+            <label for="describeOpportunity" id="academicsdescribecheck">Describe what was discussed inthe   checked areas from the Area of Opportunities section above.*:  </label>
+            <textarea type="textarea" id="academicsdescribetext"> </textarea>
+            </div>
+          </div>
+          <div id="Academics" class="tabcontent" style="display: none;"> 
+
+            <h3><label for="academics ">Academics: </label></h3>
+
+            <div class="check">
+            <div>
+            <input type="checkbox" id="phonemicawareness">
+            <label for="academics">Phonemic awareness</label> 
+            </div>
+            <div>
+            <input type="checkbox" id="readingfluency">       
+            <label for="academics">Reading fluency</label> 
+            </div>
+            <div>
+            <input type="checkbox" id="readingcomprehension">    
+            <label for="academics">Reading comprehension</label> 
+            </div>
+            <div>
+            <input type="checkbox" id="writtenexpression">         
+             <label for="academics">Written expression</label> 
+             </div>
+            <div>
+             <input type="checkbox" id="numberreversals">      
+            <label for="academics">Letter/number reversals </label>
+            </div>
+            <div>
+            <input type="checkbox" id="numbersense">
+            <label for="academics">Number sense</label> 
+            </div>
+            <div>
+            <input type="checkbox" id="mathfacts"> 
+            <label for="academics">Math facts</label>
+            </div>
+            <div>
+            <input type="checkbox" id="mathcomputation">
+            <label for="academics">Math computation</label> 
+            </div>
+            <div>
+            <input type="checkbox" id="academicsother2">
+              <label for="academics"> Other:</label>
+            <input type="text" id="academicsothertext2">
+            </div>
+            </div>  
+            <div class="describe" id="describeAcademics2">   
+            <label for="describeAcademics">Describe what was discussed in the  checked areas from the Academics section above: </label>
+            <textarea type="textarea" id="describeAcademicstext2"> </textarea>
+            </div>
+            <div class="describe">  
+            <h3><label for="describeAgreements"> Common Agreements Made: </label></h3>
+            <textarea type="textarea" id="describeagreement"> </textarea>
+            </div>
+          </div>
+          
+          <div id="Comments" class="tabcontent" style="display: none;">
+            <div class="describe">  
+            <h3><label for="describeNotes">Notes/Comments: </label></h3>
+            <textarea type="textarea" id="comments"> </textarea>
+            </div>
+            <button onclick="uploadForm()" >Submit Form</button>
+          </div>
+          </div>
+          </div>
+      </div>
+      
+      
+      <!--<div class="sidebar">
+        <div class="link">
+          <img id="home" src="home.png" alt="home">
+          <h2>Home</h2>
+          <div class="link">
+            <img id="upload" src="upload.png" alt="upload">
+            <h2>Upload</h2>
+        </div>
+        </div> -->
+        
+      
+      </div> 
+        <div class="navbar">
+        <div class="logo">
+          <img id="logo" src="./images/st-johns-vector-logo-color-OUTLINED.png" alt="SJlogo">
+        </div>
+        <div class="menu">
+          <div>
+            <a href="/home" style="text-decoration: none;"><h2>Home</h2></a>
+          </div>
+          <div>
+            <a href="/find" style="text-decoration: none;"><h2>View</h2></a>
+          </div>
+          <div class="userprofile">
+            
+          </div>
+        </div>
+        
+      
+      </div>
+    </main>
+    
+
+    
+
+    
+
+    
+  </body>
+</html> 
+
