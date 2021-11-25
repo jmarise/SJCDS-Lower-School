@@ -16,6 +16,12 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
+document.getElementById("addBtn").onclick = function() {addFunction()};
+
+function addFunction(){
+  document.getElementById("addTeacher").classList.toggle("show");
+}
+
 
 function uploadSubmit(){
  alert();

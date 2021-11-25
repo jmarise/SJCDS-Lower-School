@@ -58,8 +58,29 @@
               <option value="Otis Wirth">LSH: Otis Wirth</option>
               
             </select>
+            <div class="dropDownBtn">
+             
+              <img id="addBtn" src="./images/icons8-plus-+-24.png" alt="addteacher" onclick="addFunction()" style="height: 12px;">
+              <form action="/form" id="addform" method="post" role="form">
+              <div id="addTeacher" class="addDropDown"> 
+                <h3>Add Teacher</h3>
 
-            <img id="add" src="./images/icons8-plus-+-24.png" alt="addteacher" style="height: 12px;">
+                
+                <div>
+                  <label>First Name: </label>
+                  <input type="text" name="firstName"></input>
+                </div>
+                <div>
+                  <label>Last Name: </label>
+                  <input type="text" name="lastName"></input>
+                </div>
+
+                <div>
+                 <button type="submit" name="submit" value="submit" alt="Submit"> Submit</button>
+                </div>
+              </div>
+              </form>
+            </div>
             <img id="minus" src="./images/icons8-minus-24.png" alt="minusteacher" style="height: 12px;">
             <img id="edit" src="./images/icons8-edit-24.png" alt="editteacher" style="height: 12px;">
           </div>
@@ -329,6 +350,8 @@
         
       
       </div>
+
+      
     </main>
     
 
